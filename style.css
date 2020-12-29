@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FCF16C;
+}
+
+.contentContainer, .enterContainer{
+    padding: 20px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contentContainer{
+    display: none;
+}
+.enterBtn{
+        margin-top: 50px;
+        width: 50%;
+        padding: 2%;
+        font-size: 20px;
+        background-color: transparent;
+        border: transparent;
+        border: 5px solid #e2b6d5;
+        background-color: #f9f9f9;
+    
+}
+
+.contentContainer p{
+    font-size: 20px;
+}
+
+form label{
+    font-size: 20px;
+}
+
+form input{
+    background-color: transparent;
+    border: transparent;
+    border-bottom:5px solid #e2b6d5;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#submit{
+    width: 50%;
+    padding: 2%;
+    font-size: 20px;
+    background-color: transparent;
+    border: transparent;
+    border: 5px solid #e2b6d5;
+    background-color: #f9f9f9;
+}
+
+
+.stampLocation{
+    padding: 10px;
+    display:none;
+    height: 100vh;
+    width: 100vw;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
